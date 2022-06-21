@@ -11,5 +11,10 @@ pipeline {
         sh 'python hello.py'
       }   
     }
+    stage('test') {
+      steps {
+        sh 'python bhavesh.py'
+      }   
+    }
   }
 }
